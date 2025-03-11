@@ -1,5 +1,8 @@
 # Ex-01-Linux-Commands
 
+## Name: VISHAL P
+## REGISTER NO: 212224230306
+
 
 ## Aim:
 

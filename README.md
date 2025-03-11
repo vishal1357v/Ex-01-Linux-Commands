@@ -225,26 +225,55 @@ The find command is used to find a particular file within a directory.
 
 Syntax: find.-name”*.pdf”
 
+## Writing a Bash Script in Mousepad
+## Open Mousepad
+```mousepad myscript.sh &```
 
+Write the Bash Script
+```#!/bin/bash 
 
+echo "Current Directory:"
+pwd
 
+echo "Files in this directory:"
+ls
 
+echo "Current Date and Time:"
+date
 
+read -p "Enter first number: " num1
+read -p "Enter second number: " num2
 
+sum=$((num1 + num2))
+diff=$((num1 - num2))
+prod=$((num1 * num2))
+quot=$((num1 / num2))
+rem=$((num1 % num2))
 
+echo "Sum: $sum"
+echo "Difference: $diff"
+echo "Product: $prod"
+echo "Quotient: $quot"
+echo "Remainder: $rem"
+```
 
+## Make the Script Executable
+```chmod +x myscript.sh```
+## Run the Script
+```./myscript.sh```
+## OUTPUT
+Configuration of Kali Linux on Oracle Virtual Box :
 
+![419296131-c8cefd3c-b7b5-48fa-a2f6-85db776cf094](https://github.com/user-attachments/assets/fc2543aa-9d0d-4379-8e39-119e89351465)
 
+![421258284-cc481926-bcfc-4901-b74d-7f5c76beabd5](https://github.com/user-attachments/assets/cc52f393-379e-4f0c-b980-6bcaaeee3fc0)
 
+![421258755-ddc08a53-e155-4a5c-afa4-d4a9429696d3](https://github.com/user-attachments/assets/87568f65-9ed0-40b0-a425-e3addb6179bf)
 
+![417051518-bdb5a52e-f093-4767-9cb1-0c4ffc8fe11f](https://github.com/user-attachments/assets/eaca831e-b9db-43da-b354-7a2660c3df49)
 
-
-
-
-
-
+![417051556-73eb14f7-96b1-4685-82de-234802e0831b](https://github.com/user-attachments/assets/1352ca82-283e-4d5a-8ce6-502dbf99f5a6)
 
 
 ## Result:
-
-Thus, the execution of various Linux commands is executed successfully using Ubuntu OS.
+Thus, the execution of various Linux commands is executed successfully using VMware workstation.
